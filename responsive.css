@@ -1,0 +1,210 @@
+@media (max-width: 1050px) {
+  .container {
+    margin-right:0%;
+    margin-left:0%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width:100%;
+    min-width:300px
+  }
+
+ .header{
+  display:none;
+ }
+
+ .responsive-header{
+   display:block;
+ }
+
+.feature-list{
+  display:block;
+  margin-bottom:100px;
+}
+
+.main{
+  width:100%;
+  margin-bottom:50px;
+  min-width:360px;
+}
+
+.lecentry-articles{
+  height:auto;
+}
+
+.lecentry-articles-img{
+  width:100%;
+  height:auto;
+}
+
+
+.date-time{
+  padding-bottom:10px;
+}
+
+.article-title{
+  padding-bottom:15px;
+}
+
+.article-txt{
+  padding-bottom:10px;
+}
+
+
+
+/*--sidebar--*/
+.sidebar .widget{
+  width:100%;
+}
+
+
+
+.search{
+  margin-right:30px;
+}
+
+.search-form{
+  float:none;
+}
+
+.search-input{
+  width:80%;
+}
+
+#searchsubmit{
+  width:15%;
+}
+
+.widget_search{
+	text-align:center;
+	padding:10px 10px;
+}
+
+
+.recommended-article-body{
+  width:auto;
+  padding:5px 10px;
+}
+
+.recommended-date-time{
+  padding-bottom:10px;
+}
+
+
+
+
+#archives-dropdown{
+  width:80%;
+}
+
+
+.ad-section{
+  width:auto;
+  height:auto;
+}
+
+/*--footer--*/
+
+
+.footer{
+  background-color:#f8f8f8;
+}
+
+.footer .widget{
+  width:100%;
+  background-color:#fff;
+}
+
+
+
+.footer-post{
+  width:50%;
+  height:200px;
+  margin-bottom:5px;
+}
+
+.footer-post-img{
+  height:200px;
+}
+
+
+.footer-categorie-name{
+  display:block;
+}
+
+.footer-post-title{
+  display:block;
+}
+
+
+.footer-inner{
+  margin-bottom:50px;
+  display:block;
+}
+
+
+.pager{
+	text-align:center;
+  padding:20px;
+}
+
+.wpcf7-form-control{
+  width:70%;
+}
+
+}
+
+
+@media (max-width: 576px) {
+
+
+.article-title{
+  font-size:18px;
+  padding-bottom:15px;
+}
+
+.attachment-post-thumbnail{
+  height:auto;
+  width:100%;
+  margin:10px 0px;
+  float:none;
+}
+.zoom-post-thumbnail {
+  height:auto;
+  width:100%;
+  margin:10px 0px;
+  float:none;
+  display:none
+  ;
+}
+.responsive-post-thumbnail{
+  display:block;
+}
+.no_image{
+  width:100%;
+  height:auto;
+}
+
+
+.article-body{
+  padding:10px 10px;
+}
+
+
+.footer-post{
+  width:100%;
+  margin-bottom:5px;
+  height:300px;
+}
+
+.footer-post-img{
+  height:300px;
+}
+
+.category-title{
+  width:50%;
+}
+
+}
